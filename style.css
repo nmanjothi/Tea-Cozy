@@ -1,0 +1,152 @@
+.main {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: seashell;
+  background-color: black;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+
+/* Header Section */
+.header {
+  height: 69px;
+  position: fixed;
+  float: right;
+  top: 0px;
+  width: 100%;
+  display: inline-block;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.nav a:hover {
+  cursor: pointer;
+}
+
+.header img {
+  height: 65px;
+  margin-left: 2px;
+}
+
+.nav {
+  float: right;
+  margin-right: 30px;
+}
+.nav a {
+  text-decoration: underline;
+  color: seashell;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.nav li {
+  list-style: none;
+  display: inline-flex;
+  font-size: larger;
+}
+
+/* Mission Section */
+
+.missionback {
+  background-image: url(./Assets/img-mission-background.jpg);
+  background-position: center;
+  height: 700px;
+  max-width: 1200px;
+}
+
+.missionbanner {
+  align-content: center;
+  max-height: 50%;
+  margin-right: 2%;
+  margin-left: 2%;
+  max-width: 100%;
+  background-color: black;
+  opacity: 0.85;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+
+/* Tea Section */
+
+.teabanner {
+  text-align: center;
+}
+
+
+.flavors {
+  background-position: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content:center;
+  
+}
+
+.tea {
+  margin-top: 10px;
+  position: relative;
+  
+  
+}
+
+.tea img {
+  height:200px;
+  width:300px;
+}
+
+.tea h4 { 
+  width:300px;
+  text-align:center;
+  font-weight:bold;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.teabanner {
+  text-align: center;
+}
+
+/* Locations */
+
+
+.locations {
+
+  background-image: url(./Assets/img-locations-background.jpg);
+  height: 500px;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+  
+  
+}
+
+  .site {
+
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: black;
+    opacity: 0.85;
+    text-align:center;
+      }
+
+   .sitecopy {
+    text-align:center;
+    margin-top: 25%;
+   }   
+
+   /* Contact */
+
+   .contact {
+    text-align: center;
+  }
